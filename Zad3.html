@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+var meters = prompt ("Введите количество метров, для пересчёта в километры", 1000);
+if (meters.toLowerCase() == meters.toUpperCase()){
+document.write(meters + " meters = " + (parseInt(meters) / 1000) + " kilometers");
+    }
+else{
+alert("You entered wrong value");
+window.location.reload();
+    }
+</script>
+</body>
+</html>
